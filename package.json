@@ -1,22 +1,19 @@
 {
-  "name": "nature",
-  "version": "1.0.0",
-  "description": "Landing page for an imaginary company",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manuarora700/advanced-css-project.git"
-  },
-  "author": "Manu Arora",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manuarora700/advanced-css-project/issues"
-  },
-  "homepage": "https://github.com/manuarora700/advanced-css-project#readme",
-  "devDependencies": {
-    "node-sass": "^4.7.2"
-  }
+    "name": "nature",
+    "version": "1.0.0",
+    "description": "Landing page for an imaginary company",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/manuarora700/advanced-css-project.git"
+    },
+    "author": "Manu Arora",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/manuarora700/advanced-css-project/issues"
+    },
+    "homepage": "https://github.com/manuarora700/advanced-css-project#readme"
 }
