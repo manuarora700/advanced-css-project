@@ -11,6 +11,7 @@
         margin-bottom: .5rem;
         display: inline-block;
         background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        background-clip: text; //clips the background exactly where the text is. New property
         -webkit-background-clip: text; //clips the background exactly where the text is. New property
         color: transparent;
     }
